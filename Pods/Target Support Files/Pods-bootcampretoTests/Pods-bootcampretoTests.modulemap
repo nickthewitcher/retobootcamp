@@ -1,0 +1,6 @@
+framework module Pods_bootcampretoTests {
+  umbrella header "Pods-bootcampretoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
