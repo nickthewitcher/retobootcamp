@@ -7,26 +7,30 @@
 
 import UIKit
 import Alamofire
+import RxSwift
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let apiService = ApiService.sharedInstance
-        
-        
-         
-        apiService.getSimulator()
+         apiService.getSimulator()
             .subscribe(
-                response -> {
-                    
-                },
-                error -> {
-                
-                });
- // Zona de comentarios utiles
-        
-        
+                onNext: { print("onNext: \($0)") },
+                onError: { print("onError: \($0)")
+                   });
+    }    
+}
+
+
+
+
+
+
+
+
+
+// Zona de comentarios utiles
 // Do any additional setup after loading the view.
 /*let session = Session.default
         session.request("https://api.androidhive.info/contacts/")
@@ -61,8 +65,6 @@ class ViewController: UIViewController {
                 
             }
         */
-    }
 
 
-}
 

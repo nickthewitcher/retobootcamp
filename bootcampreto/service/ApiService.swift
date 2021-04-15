@@ -32,7 +32,17 @@ class ApiService{
             }
                     return Disposables.create()
                 }}
-    
+
+
+}
+
+
+
+
+
+
+
+   /*
     func getSimulatorComplete() {
         self.api.session.request(Environments.apiURL)
             .validate()
@@ -46,7 +56,7 @@ class ApiService{
                 print(simulators.response.tarjetas)
                 print(simulators.response.tea)
             }
-    }
+    }*/
     
     
 //    Zona de comentarios utiles
@@ -80,5 +90,3 @@ class ApiService{
 //                (response) in debugPrint(response)
 //            }
 //        }
-
-}
