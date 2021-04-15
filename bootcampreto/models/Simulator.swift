@@ -6,7 +6,9 @@
 //
 
 import Foundation
-struct Simulator: Codable {
+struct Simulator: Decodable {
     let code: Int
     let response: Response
 }
+
+

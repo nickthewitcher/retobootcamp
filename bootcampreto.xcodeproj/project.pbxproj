@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01A4B5F389DD2C698AA74AE2 /* Pods_DEV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9139C968944CBE280C431B50 /* Pods_DEV.framework */; };
 		0C3D43A526275CD9006C82EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D43A426275CD9006C82EA /* AppDelegate.swift */; };
 		0C3D43A726275CD9006C82EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D43A626275CD9006C82EA /* SceneDelegate.swift */; };
 		0C3D43A926275CD9006C82EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D43A826275CD9006C82EA /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		0C3D43B126275CDA006C82EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3D43AF26275CDA006C82EA /* LaunchScreen.storyboard */; };
 		0C3D43BC26275CDA006C82EA /* bootcampretoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D43BB26275CDA006C82EA /* bootcampretoTests.swift */; };
 		0C3D43C726275CDA006C82EA /* bootcampretoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3D43C626275CDA006C82EA /* bootcampretoUITests.swift */; };
+		0C5420D12628A520004B6B7C /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5420D02628A520004B6B7C /* DataRequest.swift */; };
+		0C5420D92628A635004B6B7C /* JSONSchemaSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5420D82628A635004B6B7C /* JSONSchemaSupport.swift */; };
 		0CD510A7262782FD00473A16 /* Simulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD510A6262782FD00473A16 /* Simulator.swift */; };
 		0CD510B12627832600473A16 /* Tarjetas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD510B02627832600473A16 /* Tarjetas.swift */; };
 		0CD510B92627846E00473A16 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD510B82627846E00473A16 /* Response.swift */; };
@@ -36,9 +39,8 @@
 		0CD511DE26281A1400473A16 /* Environments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD511DA26281A1400473A16 /* Environments.swift */; };
 		0CD511DF26281A1400473A16 /* Environments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD511DA26281A1400473A16 /* Environments.swift */; };
 		0CD511E026281A1400473A16 /* Environments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD511DA26281A1400473A16 /* Environments.swift */; };
-		4A28939251000418EF70DE01 /* Pods_bootcampreto_bootcampretoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F42516C5FF38CEC5619F28 /* Pods_bootcampreto_bootcampretoUITests.framework */; };
-		880D91ECFF7AC6EF007255AA /* Pods_bootcampretoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110CD344A0361B14E8962E8E /* Pods_bootcampretoTests.framework */; };
-		A47311579931CE19F5062A61 /* Pods_bootcampreto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F632E3965996824044186C7 /* Pods_bootcampreto.framework */; };
+		5B61EA440E1B077BDC48DB1F /* Pods_DEV_DEVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4341D40FDD60BE3C3ADD4269 /* Pods_DEV_DEVUITests.framework */; };
+		E27F46239E41CB4E0BF6FB40 /* Pods_DEVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A993D84F28149B622291130 /* Pods_DEVTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,8 @@
 		0C3D43C226275CDA006C82EA /* DEVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DEVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C3D43C626275CDA006C82EA /* bootcampretoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bootcampretoUITests.swift; sourceTree = "<group>"; };
 		0C3D43C826275CDA006C82EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C5420D02628A520004B6B7C /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		0C5420D82628A635004B6B7C /* JSONSchemaSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONSchemaSupport.swift; sourceTree = "<group>"; };
 		0CD510A6262782FD00473A16 /* Simulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulator.swift; sourceTree = "<group>"; };
 		0CD510B02627832600473A16 /* Tarjetas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarjetas.swift; sourceTree = "<group>"; };
 		0CD510B82627846E00473A16 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
@@ -110,14 +114,20 @@
 		0CD51127262809EB00473A16 /* PRODUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRODUITests.swift; sourceTree = "<group>"; };
 		0CD51129262809EB00473A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CD511DA26281A1400473A16 /* Environments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environments.swift; sourceTree = "<group>"; };
-		110CD344A0361B14E8962E8E /* Pods_bootcampretoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bootcampretoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2722237D529867259F6BEA5B /* Pods-bootcampreto-bootcampretoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bootcampreto-bootcampretoUITests.debug.xcconfig"; path = "Target Support Files/Pods-bootcampreto-bootcampretoUITests/Pods-bootcampreto-bootcampretoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3696F0ACA9052D9A75211C0C /* Pods-DEV-DEVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEV-DEVUITests.release.xcconfig"; path = "Target Support Files/Pods-DEV-DEVUITests/Pods-DEV-DEVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4341D40FDD60BE3C3ADD4269 /* Pods_DEV_DEVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DEV_DEVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4452F2015148689FC0673C3C /* Pods-DEV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEV.debug.xcconfig"; path = "Target Support Files/Pods-DEV/Pods-DEV.debug.xcconfig"; sourceTree = "<group>"; };
 		4E3948C5DB8E7EE3F0F25131 /* Pods-bootcampreto-bootcampretoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bootcampreto-bootcampretoUITests.release.xcconfig"; path = "Target Support Files/Pods-bootcampreto-bootcampretoUITests/Pods-bootcampreto-bootcampretoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5EEC1A41FF3D3852E2BC6093 /* Pods-bootcampretoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bootcampretoTests.release.xcconfig"; path = "Target Support Files/Pods-bootcampretoTests/Pods-bootcampretoTests.release.xcconfig"; sourceTree = "<group>"; };
-		5F632E3965996824044186C7 /* Pods_bootcampreto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bootcampreto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7200B48D7462C9CEDF8C722E /* Pods-bootcampreto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bootcampreto.debug.xcconfig"; path = "Target Support Files/Pods-bootcampreto/Pods-bootcampreto.debug.xcconfig"; sourceTree = "<group>"; };
+		7A993D84F28149B622291130 /* Pods_DEVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DEVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82586B9DCD6CC9B3B8BC19F8 /* Pods-DEV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEV.release.xcconfig"; path = "Target Support Files/Pods-DEV/Pods-DEV.release.xcconfig"; sourceTree = "<group>"; };
+		9139C968944CBE280C431B50 /* Pods_DEV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DEV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D15D02C3196DC71580023A /* Pods-DEVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEVTests.release.xcconfig"; path = "Target Support Files/Pods-DEVTests/Pods-DEVTests.release.xcconfig"; sourceTree = "<group>"; };
+		A91CE77086DE3033B09978B3 /* Pods-DEVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEVTests.debug.xcconfig"; path = "Target Support Files/Pods-DEVTests/Pods-DEVTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BFFC4A5D633DDB09DAA3F49D /* Pods-bootcampreto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bootcampreto.release.xcconfig"; path = "Target Support Files/Pods-bootcampreto/Pods-bootcampreto.release.xcconfig"; sourceTree = "<group>"; };
-		D4F42516C5FF38CEC5619F28 /* Pods_bootcampreto_bootcampretoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bootcampreto_bootcampretoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7F54423BBFC6A3A7797586 /* Pods-DEV-DEVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEV-DEVUITests.debug.xcconfig"; path = "Target Support Files/Pods-DEV-DEVUITests/Pods-DEV-DEVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A47311579931CE19F5062A61 /* Pods_bootcampreto.framework in Frameworks */,
+				01A4B5F389DD2C698AA74AE2 /* Pods_DEV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880D91ECFF7AC6EF007255AA /* Pods_bootcampretoTests.framework in Frameworks */,
+				E27F46239E41CB4E0BF6FB40 /* Pods_DEVTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A28939251000418EF70DE01 /* Pods_bootcampreto_bootcampretoUITests.framework in Frameworks */,
+				5B61EA440E1B077BDC48DB1F /* Pods_DEV_DEVUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +188,12 @@
 				4E3948C5DB8E7EE3F0F25131 /* Pods-bootcampreto-bootcampretoUITests.release.xcconfig */,
 				004F363DDCD24AD5EB2FCD67 /* Pods-bootcampretoTests.debug.xcconfig */,
 				5EEC1A41FF3D3852E2BC6093 /* Pods-bootcampretoTests.release.xcconfig */,
+				4452F2015148689FC0673C3C /* Pods-DEV.debug.xcconfig */,
+				82586B9DCD6CC9B3B8BC19F8 /* Pods-DEV.release.xcconfig */,
+				EA7F54423BBFC6A3A7797586 /* Pods-DEV-DEVUITests.debug.xcconfig */,
+				3696F0ACA9052D9A75211C0C /* Pods-DEV-DEVUITests.release.xcconfig */,
+				A91CE77086DE3033B09978B3 /* Pods-DEVTests.debug.xcconfig */,
+				96D15D02C3196DC71580023A /* Pods-DEVTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -213,6 +229,8 @@
 		0C3D43A326275CD9006C82EA /* bootcampreto */ = {
 			isa = PBXGroup;
 			children = (
+				0C5420C92628A2C4004B6B7C /* service */,
+				0C5420C82628A2BA004B6B7C /* extension */,
 				0CD511D9262819F200473A16 /* environments */,
 				0CD510BD262787E800473A16 /* utils */,
 				0CD510A52627820100473A16 /* models */,
@@ -245,6 +263,24 @@
 			path = bootcampretoUITests;
 			sourceTree = "<group>";
 		};
+		0C5420C82628A2BA004B6B7C /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				0C5420D02628A520004B6B7C /* DataRequest.swift */,
+				0C5420D82628A635004B6B7C /* JSONSchemaSupport.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		0C5420C92628A2C4004B6B7C /* service */ = {
+			isa = PBXGroup;
+			children = (
+				0CD510F22627FCE500473A16 /* Api.swift */,
+				0CD510F7262802F300473A16 /* ApiService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
 		0CD510A52627820100473A16 /* models */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,8 +296,6 @@
 			children = (
 				0CD510D12627CCC100473A16 /* RequestInterceptor.swift */,
 				0CD510E52627E30500473A16 /* KeychainStorage.swift */,
-				0CD510F22627FCE500473A16 /* Api.swift */,
-				0CD510F7262802F300473A16 /* ApiService.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -309,9 +343,9 @@
 		94E4DB10C5565DAF423BE887 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5F632E3965996824044186C7 /* Pods_bootcampreto.framework */,
-				D4F42516C5FF38CEC5619F28 /* Pods_bootcampreto_bootcampretoUITests.framework */,
-				110CD344A0361B14E8962E8E /* Pods_bootcampretoTests.framework */,
+				9139C968944CBE280C431B50 /* Pods_DEV.framework */,
+				4341D40FDD60BE3C3ADD4269 /* Pods_DEV_DEVUITests.framework */,
+				7A993D84F28149B622291130 /* Pods_DEVTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -553,7 +587,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-bootcampreto-bootcampretoUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DEV-DEVUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -575,7 +609,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-bootcampreto-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DEV-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -588,15 +622,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-bootcampreto-bootcampretoUITests/Pods-bootcampreto-bootcampretoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DEV-DEVUITests/Pods-DEV-DEVUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-bootcampreto-bootcampretoUITests/Pods-bootcampreto-bootcampretoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DEV-DEVUITests/Pods-DEV-DEVUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bootcampreto-bootcampretoUITests/Pods-bootcampreto-bootcampretoUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DEV-DEVUITests/Pods-DEV-DEVUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8B75718362B9BC4F8510AD15 /* [CP] Check Pods Manifest.lock */ = {
@@ -614,7 +648,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-bootcampretoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DEVTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -627,15 +661,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-bootcampreto/Pods-bootcampreto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DEV/Pods-DEV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-bootcampreto/Pods-bootcampreto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DEV/Pods-DEV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bootcampreto/Pods-bootcampreto-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DEV/Pods-DEV-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -647,7 +681,9 @@
 			files = (
 				0CD510F32627FCE500473A16 /* Api.swift in Sources */,
 				0C3D43A926275CD9006C82EA /* ViewController.swift in Sources */,
+				0C5420D92628A635004B6B7C /* JSONSchemaSupport.swift in Sources */,
 				0CD510E62627E30500473A16 /* KeychainStorage.swift in Sources */,
+				0C5420D12628A520004B6B7C /* DataRequest.swift in Sources */,
 				0CD511DB26281A1400473A16 /* Environments.swift in Sources */,
 				0CD510D22627CCC100473A16 /* RequestInterceptor.swift in Sources */,
 				0C3D43A526275CD9006C82EA /* AppDelegate.swift in Sources */,
@@ -885,7 +921,7 @@
 		};
 		0C3D43CC26275CDA006C82EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7200B48D7462C9CEDF8C722E /* Pods-bootcampreto.debug.xcconfig */;
+			baseConfigurationReference = 4452F2015148689FC0673C3C /* Pods-DEV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -905,7 +941,7 @@
 		};
 		0C3D43CD26275CDA006C82EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFFC4A5D633DDB09DAA3F49D /* Pods-bootcampreto.release.xcconfig */;
+			baseConfigurationReference = 82586B9DCD6CC9B3B8BC19F8 /* Pods-DEV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -925,7 +961,7 @@
 		};
 		0C3D43CF26275CDA006C82EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 004F363DDCD24AD5EB2FCD67 /* Pods-bootcampretoTests.debug.xcconfig */;
+			baseConfigurationReference = A91CE77086DE3033B09978B3 /* Pods-DEVTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -947,7 +983,7 @@
 		};
 		0C3D43D026275CDA006C82EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EEC1A41FF3D3852E2BC6093 /* Pods-bootcampretoTests.release.xcconfig */;
+			baseConfigurationReference = 96D15D02C3196DC71580023A /* Pods-DEVTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -969,7 +1005,7 @@
 		};
 		0C3D43D226275CDA006C82EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2722237D529867259F6BEA5B /* Pods-bootcampreto-bootcampretoUITests.debug.xcconfig */;
+			baseConfigurationReference = EA7F54423BBFC6A3A7797586 /* Pods-DEV-DEVUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -989,7 +1025,7 @@
 		};
 		0C3D43D326275CDA006C82EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E3948C5DB8E7EE3F0F25131 /* Pods-bootcampreto-bootcampretoUITests.release.xcconfig */;
+			baseConfigurationReference = 3696F0ACA9052D9A75211C0C /* Pods-DEV-DEVUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

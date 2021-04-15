@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct Response: Codable {
+struct Response: Decodable {
     let tarjetas: Tarjetas
     let cuotas: [Int]
     let diasPagos, tea: [String]

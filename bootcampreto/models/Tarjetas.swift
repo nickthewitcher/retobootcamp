@@ -7,6 +7,6 @@
 
 import Foundation
 
-struct Tarjetas: Codable {
+struct Tarjetas: Decodable {
     let clasica, oro, black: String
 }

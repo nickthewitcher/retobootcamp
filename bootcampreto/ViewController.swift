@@ -12,22 +12,38 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        /*let session = Session.default
+        let apiService = ApiService.sharedInstance
+        
+        
+         
+        apiService.getSimulator()
+            .subscribe(
+                response -> {
+                    
+                },
+                error -> {
+                
+                });
+ // Zona de comentarios utiles
+        
+        
+// Do any additional setup after loading the view.
+/*let session = Session.default
         session.request("https://api.androidhive.info/contacts/")
             .response{
                 (response) in debugPrint(response)                
             }
         debugPrint("---------------------------")
  */
-    
-        debugPrint("---------------------------")
-        let api = Api.sharedInstance
+//        let api = Api.sharedInstance
+//      
+//       api.session.request(Environments.apiURL)
+//           .response{
+//               (response) in debugPrint(response)
+//           }
+        
+        
       
-       api.session.request(Environments.apiURL)
-           .response{
-               (response) in debugPrint(response)
-           }
         
     /*
          let api = Api.sharedInstance

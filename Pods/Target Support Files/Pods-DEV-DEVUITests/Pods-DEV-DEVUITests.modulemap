@@ -1,0 +1,6 @@
+framework module Pods_DEV_DEVUITests {
+  umbrella header "Pods-DEV-DEVUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
