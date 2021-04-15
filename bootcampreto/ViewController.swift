@@ -20,14 +20,25 @@ class ViewController: UIViewController {
             }
         debugPrint("---------------------------")
  */
-        
+    
+        debugPrint("---------------------------")
         let api = Api.sharedInstance
+      
+       api.session.request(Environments.apiURL)
+           .response{
+               (response) in debugPrint(response)
+           }
+        
+    /*
+         let api = Api.sharedInstance
        
-        api.session.request("http://35.192.80.171/bootcamp/wp-json/bcp/simulator/")
+        api.session.request(Environment.apiURL)
             .response{
                 (response) in debugPrint(response)
             }
-
+*/
+        
+        
         /*AF.request("https://httpbin.org/get")
             .response{
                 (response) in debugPrint(response)

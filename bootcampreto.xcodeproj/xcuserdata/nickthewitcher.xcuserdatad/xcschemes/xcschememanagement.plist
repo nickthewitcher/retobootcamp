@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>bootcampreto.xcscheme_^#shared#^_</key>
+		<key>DEV.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>6</integer>
+		</dict>
+		<key>PROD.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0C3D43A026275CD9006C82EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C3D43B626275CDA006C82EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0C3D43C126275CDA006C82EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
